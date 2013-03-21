@@ -6,7 +6,9 @@ How to use it
 =============
 
 Install [phantomjs](https://code.google.com/p/phantomjs/wiki/Installation) and [casperjs](http://casperjs.org/installation.html).Copy kaidan.js and urls.txt in a folder, open urls.txt and add the pages you want to test, separated in a new line.
+
 http://www.lastwebdesigner.com
+
 http://www.antoniofullone.it
 
 Then open the terminal go to the folder with kaidan and run the script using casperjs kaidan.js. It will save all the screenshots in a folder and name each image in this : page_title_width.png
