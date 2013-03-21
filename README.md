@@ -11,7 +11,8 @@ http://www.antoniofullone.it
 
 Then open the terminal go to the folder with kaidan and run the script using casperjs kaidan.js. It will save all the screenshots in a folder and name each image in this : page_title_width.png
 The resolutions are managed in an array that can be modified depending on your needs.
-	var viewports =
+
+`var viewports =
         [
             {w:320,h:480},
             {w:480,h:640},
@@ -19,9 +20,9 @@ The resolutions are managed in an array that can be modified depending on your n
             {w:1024,h:768},
             {w:1440,h:960},
             {w:1920,h:1080}
-        ]
+        ]`
 
-You can check this [article]() for more info.
+You can check this [article](http://lastwebdesigner.com/web-design/screenshots-with-casperjs-for-responsive-webdesign.html) for more info.
 
 Problem with external fonts
 ===========================
@@ -29,7 +30,7 @@ I could not make the scritp work with external fonts loaded by typekit, the scre
 
 License
 =======
-There license since is a simple script. Anyone can use it with no restrictions. 
+There is no license since is a simple script. Anyone can use it with no restrictions. 
 
 Why the name
 ========
