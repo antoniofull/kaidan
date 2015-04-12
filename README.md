@@ -5,7 +5,7 @@ Kaidan is a simple script that uses a file as input for the url's and takes a sc
 How to use it
 =============
 
-Install [phantomjs](https://code.google.com/p/phantomjs/wiki/Installation) and [casperjs](http://casperjs.org/installation.html).Copy kaidan.js and urls.txt in a folder, open urls.txt and add the pages you want to test, separated in a new line.
+Install [phantomjs](https://code.google.com/p/phantomjs/wiki/Installation) and [casperjs](http://casperjs.org/installation.html). Clone the folder, run "npm install", open urls.txt and add the pages you want to test, separated in a new line. 
 
 http://www.lastwebdesigner.com
 

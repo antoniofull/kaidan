@@ -1,0 +1,35 @@
+{
+  "name": "Kaidan",
+  "version": "1.0.0",
+  "description": "Screenshots for responsive design. Organised in folders.",
+  "main": "kaidan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lastwebdesigner/kaidan.git"
+  },
+  "keywords": [
+    "casperjs",
+    "phantom",
+    "rwd"
+  ],
+  "author": "Antonio Fullone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lastwebdesigner/kaidan/issues"
+  },
+  "homepage": "https://github.com/lastwebdesigner/kaidan",
+  "devDependencies": {
+    "fs": "0.0.2",
+    "sys": "0.0.1",
+    "system": "^0.1.0",
+    "util": "^0.10.3"
+  },
+  "dependencies": {
+    "casper": "^0.1.1",
+    "casperjs": "^1.1.0-beta3",
+    "phantomjs": "^1.9.16"
+  }
+}
